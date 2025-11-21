@@ -2,22 +2,22 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home from "./Home";
-import Header from "./Header";
-import Footer from "./Footer";
-import About from "./About";
-import Exelist from "./Exelist";
-import Contact from "./Contact";
+import Home from "./Pages/Home";
+import Header from "./Common/Header";
+import Footer from "./Common/Footer";
+import About from "./Pages/About";
+import Exelist from "./Pages/Exelist";
+import Contact from "./Pages/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Gallery from "./Gallery";
-import Details from "./Details";
-import Bodypart from "./Bodypart";
-import Equipment from "./Equipment";
-import Target from "./Target";
-import BodypartbyTag from "./BodypartbyTag";
-import Equipmentbytag from "./Equipmentbytag";
-import Targetbytag from "./Targetbytag";
-import SearchExe from "./SearchExe";
+import Gallery from "./Pages/Gallery";
+import Details from "./Pages/Details";
+import Bodypart from "./Pages/Bodypart";
+import Equipment from "./Pages/Equipment";
+import Target from "./Pages/Target";
+import BodypartbyTag from "./Pages/BodypartbyTag";
+import Equipmentbytag from "./Pages/Equipmentbytag";
+import Targetbytag from "./Pages/Targetbytag";
+import SearchExe from "./Pages/SearchExe";
 
 function App() {
   return (
