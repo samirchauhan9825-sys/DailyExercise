@@ -14,7 +14,7 @@ import Details from "./Pages/Details";
 import Bodypart from "./Pages/Bodypart";
 import Equipment from "./Pages/Equipment";
 import Target from "./Pages/Target";
-import BodypartbyTag from "./Pages/BodypartbyTag";
+// import BodypartbyTag from "./Pages/BodypartbyTag";
 import Equipmentbytag from "./Pages/Equipmentbytag";
 import Targetbytag from "./Pages/Targetbytag";
 import SearchExe from "./Pages/SearchExe";
@@ -35,7 +35,7 @@ function App() {
             <Route path="/bodypart" element={<Bodypart/>} / >
             <Route path="/equipment" element={<Equipment/>} />
             <Route path="/target" element={<Target/>} />
-            <Route path="/bodypartbytag/:bodypart" element={<BodypartbyTag/>} />
+            {/* <Route path="/bodypartbytag/:bodypart" element={<BodypartbyTag/>} /> */}
             <Route path="/equipmentbytag/:equipment" element={<Equipmentbytag/>} />
             <Route path="/targetbytag/:target" element={<Targetbytag/>} />
           </Routes>

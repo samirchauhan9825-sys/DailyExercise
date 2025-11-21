@@ -92,9 +92,9 @@ function BodypartbyTag() {
                         <>
                           <ul className="list cat-list">
                             <li>
-                              <Link to={`/bodypartbytag/${value}`} className="d-flex">
+                              {/* <Link to={`/bodypartbytag/${value}`} className="d-flex">
                                 <p>{value}</p>
-                              </Link>
+                              </Link> */}
                             </li>
                           </ul>
                         </>
