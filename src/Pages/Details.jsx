@@ -8,15 +8,11 @@ import { Card, ListGroup } from "react-bootstrap";
 function Details() {
   let id = useLocation().pathname.split("/")[2];
   let [instructions, setInstructions] = useState([]);
-  let query = useLocation().search.split("=")[1];
-  console.log(query);
-  console.log(id);
-
   let [details, setDetails] = useState(null);
   let [image, setImage] = useState("");
 
   async function FetchDetails() {
-    const url = `https://exercisedb.p.rapidapi.com/exercises/exercise/search?q=${query}`;
+    const url = `https://exercisedb.p.rapidapi.com/exercises/exercise/${id}`;
     const options = {
       method: "GET",
       headers: {
@@ -69,6 +65,22 @@ function Details() {
 
   return (
     <>
+      {/*? Hero Start */}
+      <div className="slider-area2">
+        <div className="slider-height2 d-flex align-items-center">
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-12">
+                <div className="hero-cap hero-cap2 pt-70">
+                  <h2>Execrcise Details</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Hero End */}
+
       <Container>
         <Row className="my-4">
           <Col md="6" sm="12">
@@ -106,9 +118,15 @@ function Details() {
                     <ListGroup.Item>
                       <b>Target</b> : {details.target}
                       <h3 className="mt-4 ">Instructions :</h3>
-                      {instructions.map((value) => {
-                        return <p className="mt-2">- {value}</p>;
-                      })}
+                      {instructions ? (
+                        <>
+                          {instructions.map((value) => {
+                            return <p className="mt-2">- {value}</p>;
+                          })}
+                        </>
+                      ) : (
+                        <>""</>
+                      )}
                     </ListGroup.Item>
                   </ListGroup>
                 </Card>

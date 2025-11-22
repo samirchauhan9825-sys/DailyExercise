@@ -100,7 +100,7 @@ function Gallery() {
         <div className="col-xl-4 col-lg-4 col-md-6 col-sm-8">
           <div className="single-services mb-40">
             <div className="features-icon">
-              <img src="assets/img/icon/icon1.svg" alt />
+              <img src="assets/img/icon/icon1.svg" />
             </div>
             <div className="features-caption">
               <h3>Location</h3>
@@ -111,7 +111,7 @@ function Gallery() {
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
           <div className="single-services mb-40">
             <div className="features-icon">
-              <img src="assets/img/icon/icon2.svg" alt />
+              <img src="assets/img/icon/icon2.svg" />
             </div>
             <div className="features-caption">
               <h3>Phone</h3>
@@ -123,7 +123,7 @@ function Gallery() {
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
           <div className="single-services mb-40">
             <div className="features-icon">
-              <img src="assets/img/icon/icon3.svg" alt />
+              <img src="assets/img/icon/icon3.svg" />
             </div>
             <div className="features-caption">
               <h3>Email</h3>

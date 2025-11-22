@@ -13,7 +13,7 @@ function Header() {
         <div className="menu-wrapper d-flex align-items-center justify-content-between">
           {/* Logo */}
           <div className="logo">
-            <a href="index.html"><img src="assets/img/logo/logo.png" alt /></a>
+            <a href="index.html"><img src="assets/img/logo/logo.png" /></a>
           </div>
           {/* Main-menu */}
           <div className="main-menu f-right d-none d-lg-block">
@@ -22,7 +22,7 @@ function Header() {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
                  <li><Link to="/exelist">Execrcise</Link>
-                      <ul class="submenu">
+                      <ul className="submenu">
                           <li><Link to="/bodypart">Bodypart</Link></li>
                           <li><Link to="/equipment">Equipment</Link></li>
                           <li><Link to="/target">Target</Link></li>

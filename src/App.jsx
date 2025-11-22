@@ -14,7 +14,7 @@ import Details from "./Pages/Details";
 import Bodypart from "./Pages/Bodypart";
 import Equipment from "./Pages/Equipment";
 import Target from "./Pages/Target";
-// import BodypartbyTag from "./Pages/BodypartbyTag";
+import BodypartbyTag from "./Pages/Bodypartbytag";
 import Equipmentbytag from "./Pages/Equipmentbytag";
 import Targetbytag from "./Pages/Targetbytag";
 import SearchExe from "./Pages/SearchExe";
@@ -24,21 +24,24 @@ function App() {
     <>
       <BrowserRouter>
         <Header />
-          <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/about" element={<About/>} />
-            <Route path="/exelist" element={<Exelist/>} />
-            <Route path="/searchExe" element={<SearchExe/>} />
-            <Route path="/details/:id" element={<Details/>}/>
-            <Route path="/gallery" element={<Gallery/>} />
-            <Route path="/contact" element={<Contact/>} />
-            <Route path="/bodypart" element={<Bodypart/>} / >
-            <Route path="/equipment" element={<Equipment/>} />
-            <Route path="/target" element={<Target/>} />
-            {/* <Route path="/bodypartbytag/:bodypart" element={<BodypartbyTag/>} /> */}
-            <Route path="/equipmentbytag/:equipment" element={<Equipmentbytag/>} />
-            <Route path="/targetbytag/:target" element={<Targetbytag/>} />
-          </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/exelist" element={<Exelist />} />
+          <Route path="/searchExe" element={<SearchExe />} />
+          <Route path="/details/:id" element={<Details />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/bodypart" element={<Bodypart />} />
+          <Route path="/equipment" element={<Equipment />} />
+          <Route path="/target" element={<Target />} />
+          <Route path="/bodypartbytag/:bodypart" element={<BodypartbyTag />} />
+          <Route
+            path="/equipmentbytag/:equipment"
+            element={<Equipmentbytag />}
+          />
+          <Route path="/targetbytag/:target" element={<Targetbytag />} />
+        </Routes>
         <Footer />
       </BrowserRouter>
     </>

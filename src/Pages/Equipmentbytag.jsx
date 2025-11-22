@@ -59,7 +59,6 @@ function Equipmentbytag() {
     FetchExeList();
   }, [equipment]);
 
-  
   useEffect(() => {
     FetchExeList();
   }, []);
@@ -97,7 +96,10 @@ function Equipmentbytag() {
                         <>
                           <ul className="list cat-list">
                             <li>
-                              <Link to={`/equipmentbytag/${value}`} className="d-flex">
+                              <Link
+                                to={`/equipmentbytag/${value}`}
+                                className="d-flex"
+                              >
                                 <p>{value}</p>
                               </Link>
                             </li>
@@ -105,68 +107,6 @@ function Equipmentbytag() {
                         </>
                       );
                     })}
-                  </aside>
-
-                  <aside className="single_sidebar_widget instagram_feeds">
-                    <h4 className="widget_title" style={{ color: "#2d2d2d" }}>
-                      Instagram Feeds
-                    </h4>
-                    <ul className="instagram_row flex-wrap">
-                      <li>
-                        <a href="#">
-                          <img
-                            className="img-fluid"
-                            src="assets/img/post/post_5.png"
-                            alt
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <img
-                            className="img-fluid"
-                            src="assets/img/post/post_6.png"
-                            alt
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <img
-                            className="img-fluid"
-                            src="assets/img/post/post_7.png"
-                            alt
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <img
-                            className="img-fluid"
-                            src="assets/img/post/post_8.png"
-                            alt
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <img
-                            className="img-fluid"
-                            src="assets/img/post/post_9.png"
-                            alt
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <img
-                            className="img-fluid"
-                            src="assets/img/post/post_10.png"
-                            alt
-                          />
-                        </a>
-                      </li>
-                    </ul>
                   </aside>
                 </div>
               </div>

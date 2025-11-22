@@ -43,7 +43,7 @@ function Home() {
               <div className="col-xl-6 col-lg-6">
                 <div className="single-topic text-center mb-30">
                   <div className="topic-img">
-                    <img src="assets/img/gallery/cat1.png" alt />
+                    <img src="assets/img/gallery/cat1.png" />
                     <div className="topic-content-box">
                       <div className="topic-content">
                         <h3>Personal traning</h3>
@@ -63,7 +63,7 @@ function Home() {
               <div className="col-xl-6 col-lg-6">
                 <div className="single-topic text-center mb-30">
                   <div className="topic-img">
-                    <img src="assets/img/gallery/cat2.png" alt />
+                    <img src="assets/img/gallery/cat2.png" />
                     <div className="topic-content-box">
                       <div className="topic-content">
                         <h3>Group traning</h3>
@@ -106,7 +106,7 @@ function Home() {
                   data-wow-delay=".2s"
                 >
                   <div className="cat-icon">
-                    <img src="assets/img/gallery/team1.png" alt />
+                    <img src="assets/img/gallery/team1.png" />
                   </div>
                   <div className="cat-cap">
                     <h5>
@@ -126,7 +126,7 @@ function Home() {
                   data-wow-delay=".4s"
                 >
                   <div className="cat-icon">
-                    <img src="assets/img/gallery/team2.png" alt />
+                    <img src="assets/img/gallery/team2.png"  />
                   </div>
                   <div className="cat-cap">
                     <h5>
@@ -146,7 +146,7 @@ function Home() {
                   data-wow-delay=".6s"
                 >
                   <div className="cat-icon">
-                    <img src="assets/img/gallery/team3.png" alt />
+                    <img src="assets/img/gallery/team3.png"  />
                   </div>
                   <div className="cat-cap">
                     <h5>
@@ -279,211 +279,6 @@ function Home() {
           </div>
         </div>
         {/* Gallery Area End */}
-        {/* Courses area start */}
-        <section className="pricing-area section-padding40 fix">
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-12">
-                <div
-                  className="section-tittle text-center mb-55 wow fadeInUp"
-                  data-wow-duration="2s"
-                  data-wow-delay=".1s"
-                >
-                  <h2>Pricing</h2>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-lg-4 col-md-6 col-sm-6">
-                <div
-                  className="properties mb-30 wow fadeInUp"
-                  data-wow-duration="1s"
-                  data-wow-delay=".2s"
-                >
-                  <div className="properties__card">
-                    <div className="about-icon">
-                      <img src="assets/img/icon/price.svg" alt />
-                    </div>
-                    <div className="properties__caption">
-                      <span className="month">6 month</span>
-                      <p className="mb-25">
-                        $30/m <span>(Single class)</span>
-                      </p>
-                      <div className="single-features">
-                        <div className="features-icon">
-                          <img src="assets/img/icon/check.svg" alt />
-                        </div>
-                        <div className="features-caption">
-                          <p>Free riding </p>
-                        </div>
-                      </div>
-                      <div className="single-features">
-                        <div className="features-icon">
-                          <img src="assets/img/icon/check.svg" alt />
-                        </div>
-                        <div className="features-caption">
-                          <p>Unlimited equipments</p>
-                        </div>
-                      </div>
-                      <div className="single-features">
-                        <div className="features-icon">
-                          <img src="assets/img/icon/check.svg" alt />
-                        </div>
-                        <div className="features-caption">
-                          <p>Personal trainer</p>
-                        </div>
-                      </div>
-                      <div className="single-features">
-                        <div className="features-icon">
-                          <img src="assets/img/icon/check.svg" alt />
-                        </div>
-                        <div className="features-caption">
-                          <p>Weight losing classes</p>
-                        </div>
-                      </div>
-                      <div className="single-features mb-20">
-                        <div className="features-icon">
-                          <img src="assets/img/icon/check.svg" alt />
-                        </div>
-                        <div className="features-caption">
-                          <p>Month to mouth</p>
-                        </div>
-                      </div>
-                      <a href="#" className="border-btn border-btn2">
-                        Join Now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-6">
-                <div
-                  className="properties mb-30 wow fadeInUp"
-                  data-wow-duration="1s"
-                  data-wow-delay=".4s"
-                >
-                  <div className="properties__card">
-                    <div className="about-icon">
-                      <img src="assets/img/icon/price.svg" alt />
-                    </div>
-                    <div className="properties__caption">
-                      <span className="month">6 month</span>
-                      <p className="mb-25">
-                        $30/m <span>(Single class)</span>
-                      </p>
-                      <div className="single-features">
-                        <div className="features-icon">
-                          <img src="assets/img/icon/check.svg" alt />
-                        </div>
-                        <div className="features-caption">
-                          <p>Free riding </p>
-                        </div>
-                      </div>
-                      <div className="single-features">
-                        <div className="features-icon">
-                          <img src="assets/img/icon/check.svg" alt />
-                        </div>
-                        <div className="features-caption">
-                          <p>Unlimited equipments</p>
-                        </div>
-                      </div>
-                      <div className="single-features">
-                        <div className="features-icon">
-                          <img src="assets/img/icon/check.svg" alt />
-                        </div>
-                        <div className="features-caption">
-                          <p>Personal trainer</p>
-                        </div>
-                      </div>
-                      <div className="single-features">
-                        <div className="features-icon">
-                          <img src="assets/img/icon/check.svg" alt />
-                        </div>
-                        <div className="features-caption">
-                          <p>Weight losing classes</p>
-                        </div>
-                      </div>
-                      <div className="single-features mb-20">
-                        <div className="features-icon">
-                          <img src="assets/img/icon/check.svg" alt />
-                        </div>
-                        <div className="features-caption">
-                          <p>Month to mouth</p>
-                        </div>
-                      </div>
-                      <a href="#" className="border-btn border-btn2">
-                        Join Now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-6">
-                <div
-                  className="properties mb-30 wow fadeInUp"
-                  data-wow-duration="1s"
-                  data-wow-delay=".6s"
-                >
-                  <div className="properties__card">
-                    <div className="about-icon">
-                      <img src="assets/img/icon/price.svg" alt />
-                    </div>
-                    <div className="properties__caption">
-                      <span className="month">6 month</span>
-                      <p className="mb-25">
-                        $30/m <span>(Single class)</span>
-                      </p>
-                      <div className="single-features">
-                        <div className="features-icon">
-                          <img src="assets/img/icon/check.svg" alt />
-                        </div>
-                        <div className="features-caption">
-                          <p>Free riding </p>
-                        </div>
-                      </div>
-                      <div className="single-features">
-                        <div className="features-icon">
-                          <img src="assets/img/icon/check.svg" alt />
-                        </div>
-                        <div className="features-caption">
-                          <p>Unlimited equipments</p>
-                        </div>
-                      </div>
-                      <div className="single-features">
-                        <div className="features-icon">
-                          <img src="assets/img/icon/check.svg" alt />
-                        </div>
-                        <div className="features-caption">
-                          <p>Personal trainer</p>
-                        </div>
-                      </div>
-                      <div className="single-features">
-                        <div className="features-icon">
-                          <img src="assets/img/icon/check.svg" alt />
-                        </div>
-                        <div className="features-caption">
-                          <p>Weight losing classes</p>
-                        </div>
-                      </div>
-                      <div className="single-features mb-20">
-                        <div className="features-icon">
-                          <img src="assets/img/icon/check.svg" alt />
-                        </div>
-                        <div className="features-caption">
-                          <p>Month to mouth</p>
-                        </div>
-                      </div>
-                      <a href="#" className="border-btn border-btn2">
-                        Join Now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* Courses area End */}
         {/*? About Area-2 Start */}
         <section className="about-area2 fix pb-padding pt-50 pb-80">
           <div className="support-wrapper align-items-center">
@@ -494,7 +289,7 @@ function Home() {
                 data-wow-duration="1s"
                 data-wow-delay=".1s"
               >
-                <img src="assets/img/gallery/about.png" alt />
+                <img src="assets/img/gallery/about.png"  />
               </div>
             </div>
             <div className="left-content2">
@@ -505,7 +300,7 @@ function Home() {
                 data-wow-delay=".3s"
               >
                 <div className="front-text">
-                  <h2 className>About Me</h2>
+                  <h2>About Me</h2>
                   <p>
                     You’ll look at graphs and charts in Task One, how to
                     approach the task and the language needed for a successful
@@ -550,7 +345,7 @@ function Home() {
                 >
                   <div className="blog-img-cap">
                     <div className="blog-img">
-                      <img src="assets/img/gallery/blog1.png" alt />
+                      <img src="assets/img/gallery/blog1.png"  />
                     </div>
                     <div className="blog-cap">
                       <span>Gym &amp; Fitness</span>
@@ -571,7 +366,7 @@ function Home() {
                 >
                   <div className="blog-img-cap">
                     <div className="blog-img">
-                      <img src="assets/img/gallery/blog2.png" alt />
+                      <img src="assets/img/gallery/blog2.png"  />
                     </div>
                     <div className="blog-cap">
                       <span>Gym &amp; Fitness</span>
@@ -618,7 +413,7 @@ function Home() {
                   data-wow-delay=".1s"
                 >
                   <div className="features-icon">
-                    <img src="assets/img/icon/icon1.svg" alt />
+                    <img src="assets/img/icon/icon1.svg"  />
                   </div>
                   <div className="features-caption">
                     <h3>Location</h3>
@@ -636,7 +431,7 @@ function Home() {
                   data-wow-delay=".2s"
                 >
                   <div className="features-icon">
-                    <img src="assets/img/icon/icon2.svg" alt />
+                    <img src="assets/img/icon/icon2.svg"  />
                   </div>
                   <div className="features-caption">
                     <h3>Phone</h3>
@@ -652,7 +447,7 @@ function Home() {
                   data-wow-delay=".4s"
                 >
                   <div className="features-icon">
-                    <img src="assets/img/icon/icon3.svg" alt />
+                    <img src="assets/img/icon/icon3.svg"  />
                   </div>
                   <div className="features-caption">
                     <h3>Email</h3>

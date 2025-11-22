@@ -26,7 +26,7 @@ function About() {
         <div className="col-lg-4 col-md-6">
           <div className="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
             <div className="cat-icon">
-              <img src="assets/img/gallery/team1.png" alt />
+              <img src="assets/img/gallery/team1.png" />
             </div>
             <div className="cat-cap">
               <h5><a href="services.html">Body Building</a></h5>
@@ -37,7 +37,7 @@ function About() {
         <div className="col-lg-4 col-md-6">
           <div className="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
             <div className="cat-icon">
-              <img src="assets/img/gallery/team2.png" alt />
+              <img src="assets/img/gallery/team2.png" />
             </div>
             <div className="cat-cap">
               <h5><a href="services.html">Muscle Gain</a></h5>
@@ -48,7 +48,7 @@ function About() {
         <div className="col-lg-4 col-md-6">
           <div className="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
             <div className="cat-icon">
-              <img src="assets/img/gallery/team3.png" alt />
+              <img src="assets/img/gallery/team3.png"  />
             </div>
             <div className="cat-cap">
               <h5><a href="services.html">Weight Loss</a></h5>
@@ -66,7 +66,7 @@ function About() {
       <div className="right-content2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
         {/* img */}
         <div className="right-img">
-          <img src="assets/img/gallery/about.png" alt />
+          <img src="assets/img/gallery/about.png" />
         </div>
       </div>
       <div className="left-content2">
@@ -102,7 +102,7 @@ function About() {
           <div className="home-blog-single mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
             <div className="blog-img-cap">
               <div className="blog-img">
-                <img src="assets/img/gallery/blog1.png" alt />
+                <img src="assets/img/gallery/blog1.png" />
               </div>
               <div className="blog-cap">
                 <span>Gym &amp; Fitness</span>
@@ -115,7 +115,7 @@ function About() {
           <div className="home-blog-single mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
             <div className="blog-img-cap">
               <div className="blog-img">
-                <img src="assets/img/gallery/blog2.png" alt />
+                <img src="assets/img/gallery/blog2.png" />
               </div>
               <div className="blog-cap">
                 <span>Gym &amp; Fitness</span>
@@ -146,7 +146,7 @@ function About() {
         <div className="col-xl-4 col-lg-4 col-md-6 col-sm-8">
           <div className="single-services mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
             <div className="features-icon">
-              <img src="assets/img/icon/icon1.svg" alt />
+              <img src="assets/img/icon/icon1.svg" />
             </div>
             <div className="features-caption">
               <h3>Location</h3>
@@ -157,7 +157,7 @@ function About() {
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
           <div className="single-services mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
             <div className="features-icon">
-              <img src="assets/img/icon/icon2.svg" alt />
+              <img src="assets/img/icon/icon2.svg" />
             </div>
             <div className="features-caption">
               <h3>Phone</h3>
@@ -169,7 +169,7 @@ function About() {
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
           <div className="single-services mb-40 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
             <div className="features-icon">
-              <img src="assets/img/icon/icon3.svg" alt />
+              <img src="assets/img/icon/icon3.svg" />
             </div>
             <div className="features-caption">
               <h3>Email</h3>

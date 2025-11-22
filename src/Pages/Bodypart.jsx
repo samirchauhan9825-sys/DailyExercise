@@ -102,67 +102,7 @@ function Bodypart() {
                     })}
                   </aside>
 
-                  <aside className="single_sidebar_widget instagram_feeds">
-                    <h4 className="widget_title" style={{ color: "#2d2d2d" }}>
-                      Instagram Feeds
-                    </h4>
-                    <ul className="instagram_row flex-wrap">
-                      <li>
-                        <a href="#">
-                          <img
-                            className="img-fluid"
-                            src="assets/img/post/post_5.png"
-                            alt
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <img
-                            className="img-fluid"
-                            src="assets/img/post/post_6.png"
-                            alt
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <img
-                            className="img-fluid"
-                            src="assets/img/post/post_7.png"
-                            alt
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <img
-                            className="img-fluid"
-                            src="assets/img/post/post_8.png"
-                            alt
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <img
-                            className="img-fluid"
-                            src="assets/img/post/post_9.png"
-                            alt
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <img
-                            className="img-fluid"
-                            src="assets/img/post/post_10.png"
-                            alt
-                          />
-                        </a>
-                      </li>
-                    </ul>
-                  </aside>
+
                 </div>
               </div>
               <div class="col-lg-9 mb-5 mb-lg-0">
