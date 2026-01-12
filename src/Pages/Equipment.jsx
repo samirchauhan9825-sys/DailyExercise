@@ -7,14 +7,13 @@ import { Link } from "react-router-dom";
 function Equipment() {
   let [equipmentdata, setEquipmentdata] = useState([]);
   let [exe, setExe] = useState([]);
-  
 
   async function FetchEquipment() {
     const url = "https://exercisedb.p.rapidapi.com/exercises/equipmentList";
     const options = {
       method: "GET",
       headers: {
-        "x-rapidapi-key": "201f7d4684msheed7ae8591cb35fp12a367jsnb49b1b720713",
+        "x-rapidapi-key": "a145741cfcmsh6f6f170edee6249p188f2cjsn5367c288b64c",
         "x-rapidapi-host": "exercisedb.p.rapidapi.com",
       },
     };
@@ -39,7 +38,7 @@ function Equipment() {
     const options = {
       method: "GET",
       headers: {
-        "x-rapidapi-key": "201f7d4684msheed7ae8591cb35fp12a367jsnb49b1b720713",
+        "x-rapidapi-key": "a145741cfcmsh6f6f170edee6249p188f2cjsn5367c288b64c",
         "x-rapidapi-host": "exercisedb.p.rapidapi.com",
       },
     };
@@ -92,7 +91,10 @@ function Equipment() {
                         <>
                           <ul className="list cat-list">
                             <li>
-                              <Link to={`/equipmentbytag/${value}`} className="d-flex">
+                              <Link
+                                to={`/equipmentbytag/${value}`}
+                                className="d-flex"
+                              >
                                 <p>{value}</p>
                               </Link>
                             </li>
@@ -101,7 +103,6 @@ function Equipment() {
                       );
                     })}
                   </aside>
-
                 </div>
               </div>
               <div className="col-lg-9 posts-list">

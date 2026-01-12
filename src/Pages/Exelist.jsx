@@ -16,7 +16,7 @@ function Exelist() {
     const options = {
       method: "GET",
       headers: {
-        "x-rapidapi-key": "201f7d4684msheed7ae8591cb35fp12a367jsnb49b1b720713",
+        "x-rapidapi-key": "a145741cfcmsh6f6f170edee6249p188f2cjsn5367c288b64c",
         "x-rapidapi-host": "exercisedb.p.rapidapi.com",
       },
     };
@@ -36,7 +36,7 @@ function Exelist() {
     ExeList();
   }, []);
   console.log(query);
-  
+
   function handelsubmit(e) {
     e.preventDefault();
     navigate(`/searchExe?query=${query}`);
@@ -113,7 +113,7 @@ function Exelist() {
               </>
             ) : (
               <>
-                <h2>Fetching Details...</h2>
+                <h2>Exercises are on the way…</h2>
               </>
             )}
           </Row>

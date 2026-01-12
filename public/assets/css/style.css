@@ -686,8 +686,28 @@ hr {
   border: 2px solid transparent;
   box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
 }
+.menu-toggle {
+  font-size: 30px;
+  cursor: pointer;
+}
 
 @media (max-width: 575px) {
+   .main-menu {
+    width: 100%;
+    background: #560304;
+    padding-left: 10px;
+  }
+
+  #navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .submenu {
+    margin-left: 20px;
+  }
+}
   /* line 402, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
   #scrollUp, #back-top {
     right: 16px;

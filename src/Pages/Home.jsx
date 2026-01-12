@@ -52,9 +52,6 @@ function Home() {
                           approach the task and <br /> the language needed for a
                           successful answer.
                         </p>
-                        <a href="courses.html" className="border-btn">
-                          View Courses
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -83,22 +80,10 @@ function Home() {
             </div>
           </div>
         </section>
-        {/* Traning categories End*/}
-        {/*? Team */}
+        {/* Traning categories End*/}? Team
         <section className="team-area fix">
           <div className="container">
-            <div className="row">
-              <div className="col-xl-12">
-                <div
-                  className="section-tittle text-center mb-55 wow fadeInUp"
-                  data-wow-duration="1s"
-                  data-wow-delay=".1s"
-                >
-                  <h2>What I Offer</h2>
-                </div>
-              </div>
-            </div>
-            <div className="row">
+            <div className="row mt-5">
               <div className="col-lg-4 col-md-6">
                 <div
                   className="single-cat text-center mb-30 wow fadeInUp"
@@ -107,15 +92,6 @@ function Home() {
                 >
                   <div className="cat-icon">
                     <img src="assets/img/gallery/team1.png" />
-                  </div>
-                  <div className="cat-cap">
-                    <h5>
-                      <a href="services.html">Body Building</a>
-                    </h5>
-                    <p>
-                      You’ll look at graphs and charts in Task One, how to
-                      approach the task{" "}
-                    </p>
                   </div>
                 </div>
               </div>
@@ -126,16 +102,7 @@ function Home() {
                   data-wow-delay=".4s"
                 >
                   <div className="cat-icon">
-                    <img src="assets/img/gallery/team2.png"  />
-                  </div>
-                  <div className="cat-cap">
-                    <h5>
-                      <a href="services.html">Muscle Gain</a>
-                    </h5>
-                    <p>
-                      You’ll look at graphs and charts in Task One, how to
-                      approach the task{" "}
-                    </p>
+                    <img src="assets/img/gallery/team2.png" />
                   </div>
                 </div>
               </div>
@@ -146,16 +113,7 @@ function Home() {
                   data-wow-delay=".6s"
                 >
                   <div className="cat-icon">
-                    <img src="assets/img/gallery/team3.png"  />
-                  </div>
-                  <div className="cat-cap">
-                    <h5>
-                      <a href="services.html">Weight Loss</a>
-                    </h5>
-                    <p>
-                      You’ll look at graphs and charts in Task One, how to
-                      approach the task{" "}
-                    </p>
+                    <img src="assets/img/gallery/team3.png" />
                   </div>
                 </div>
               </div>
@@ -178,7 +136,7 @@ function Home() {
                   <div className="overlay">
                     <div className="overlay-content">
                       <h3>Muscle gaining </h3>
-                      <a href="gallery.html">
+                      <a href="/gallery">
                         <i className="ti-plus" />
                       </a>
                     </div>
@@ -196,7 +154,7 @@ function Home() {
                   <div className="overlay">
                     <div className="overlay-content">
                       <h3>Muscle gaining </h3>
-                      <a href="gallery.html">
+                      <a href="/gallery">
                         <i className="ti-plus" />
                       </a>
                     </div>
@@ -214,7 +172,7 @@ function Home() {
                   <div className="overlay">
                     <div className="overlay-content">
                       <h3>Muscle gaining </h3>
-                      <a href="gallery.html">
+                      <a href="/gallery">
                         <i className="ti-plus" />
                       </a>
                     </div>
@@ -232,7 +190,7 @@ function Home() {
                   <div className="overlay">
                     <div className="overlay-content">
                       <h3>Muscle gaining </h3>
-                      <a href="gallery.html">
+                      <a href="/gallery">
                         <i className="ti-plus" />
                       </a>
                     </div>
@@ -250,7 +208,7 @@ function Home() {
                   <div className="overlay">
                     <div className="overlay-content">
                       <h3>Muscle gaining </h3>
-                      <a href="gallery.html">
+                      <a href="/gallery">
                         <i className="ti-plus" />
                       </a>
                     </div>
@@ -268,7 +226,7 @@ function Home() {
                   <div className="overlay">
                     <div className="overlay-content">
                       <h3>Muscle gaining </h3>
-                      <a href="gallery.html">
+                      <a href="/gallery">
                         <i className="ti-plus" />
                       </a>
                     </div>
@@ -279,48 +237,7 @@ function Home() {
           </div>
         </div>
         {/* Gallery Area End */}
-        {/*? About Area-2 Start */}
-        <section className="about-area2 fix pb-padding pt-50 pb-80">
-          <div className="support-wrapper align-items-center">
-            <div className="right-content2">
-              {/* img */}
-              <div
-                className="right-img wow fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay=".1s"
-              >
-                <img src="assets/img/gallery/about.png"  />
-              </div>
-            </div>
-            <div className="left-content2">
-              {/* section tittle */}
-              <div
-                className="section-tittle2 mb-20 wow fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay=".3s"
-              >
-                <div className="front-text">
-                  <h2>About Me</h2>
-                  <p>
-                    You’ll look at graphs and charts in Task One, how to
-                    approach the task and the language needed for a successful
-                    answer. You’ll examine Task Two questions and learn how to
-                    plan, write and check academic essays.
-                  </p>
-                  <p className="mb-40">
-                    Task One, how to approach the task and the language needed
-                    for a successful answer. You’ll examine Task Two questions
-                    and learn how to plan, write and check academic essays.
-                  </p>
-                  <a href="courses.html" className="border-btn">
-                    My Courses
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* About Area End */}
+
         {/*? Blog Area Start */}
         <section className="home-blog-area pt-10 pb-50">
           <div className="container">
@@ -331,9 +248,7 @@ function Home() {
                   className="section-tittle text-center mb-100 wow fadeInUp"
                   data-wow-duration="2s"
                   data-wow-delay=".2s"
-                >
-                  <h2>From Blog</h2>
-                </div>
+                ></div>
               </div>
             </div>
             <div className="row">
@@ -345,15 +260,7 @@ function Home() {
                 >
                   <div className="blog-img-cap">
                     <div className="blog-img">
-                      <img src="assets/img/gallery/blog1.png"  />
-                    </div>
-                    <div className="blog-cap">
-                      <span>Gym &amp; Fitness</span>
-                      <h3>
-                        <a href="blog_details.html">
-                          Your Antibiotic One Day To 10 Day Options
-                        </a>
-                      </h3>
+                      <img src="assets/img/gallery/blog1.png" />
                     </div>
                   </div>
                 </div>
@@ -366,15 +273,7 @@ function Home() {
                 >
                   <div className="blog-img-cap">
                     <div className="blog-img">
-                      <img src="assets/img/gallery/blog2.png"  />
-                    </div>
-                    <div className="blog-cap">
-                      <span>Gym &amp; Fitness</span>
-                      <h3>
-                        <a href="blog_details.html">
-                          Your Antibiotic One Day To 10 Day Options
-                        </a>
-                      </h3>
+                      <img src="assets/img/gallery/blog2.png" />
                     </div>
                   </div>
                 </div>
@@ -383,25 +282,6 @@ function Home() {
           </div>
         </section>
         {/* Blog Area End */}
-        {/*? video_start */}
-        <div
-          className="video-area section-bg2 d-flex align-items-center"
-          data-background="assets/img/gallery/video-bg.png"
-        >
-          <div className="container">
-            <div className="video-wrap position-relative">
-              <div className="video-icon">
-                <a
-                  className="popup-video btn-icon"
-                  href="https://www.youtube.com/watch?v=up68UAfH0d0"
-                >
-                  <i className="fas fa-play" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* video_end */}
         {/* ? services-area */}
         <section className="services-area">
           <div className="container">
@@ -413,13 +293,14 @@ function Home() {
                   data-wow-delay=".1s"
                 >
                   <div className="features-icon">
-                    <img src="assets/img/icon/icon1.svg"  />
+                    <img src="assets/img/icon/icon1.svg" />
                   </div>
                   <div className="features-caption">
                     <h3>Location</h3>
                     <p>
-                      You’ll look at graphs and charts in Task One, how to
-                      approach{" "}
+                      12 / sukhmal, Nagar Society, Chandlodiya Rd, nr.
+                      dhanjibhai no kuva Nr, opposite GHANSHYAM COMPLEX,
+                      Dhanjibhai Kuva, Chandlodiya, Ahmedabad, Gujarat 382481
                     </p>
                   </div>
                 </div>
@@ -431,12 +312,11 @@ function Home() {
                   data-wow-delay=".2s"
                 >
                   <div className="features-icon">
-                    <img src="assets/img/icon/icon2.svg"  />
+                    <img src="assets/img/icon/icon2.svg" />
                   </div>
                   <div className="features-caption">
                     <h3>Phone</h3>
-                    <p>(90) 277 278 2566</p>
-                    <p> (78) 267 256 2578</p>
+                    <p>9662177303</p>
                   </div>
                 </div>
               </div>
@@ -447,12 +327,11 @@ function Home() {
                   data-wow-delay=".4s"
                 >
                   <div className="features-icon">
-                    <img src="assets/img/icon/icon3.svg"  />
+                    <img src="assets/img/icon/icon3.svg" />
                   </div>
                   <div className="features-caption">
                     <h3>Email</h3>
-                    <p>jacson767@gmail.com</p>
-                    <p>contact56@zacsion.com</p>
+                    <p>strongcoregym@gmail.com</p>
                   </div>
                 </div>
               </div>

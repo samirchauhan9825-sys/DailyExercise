@@ -62,22 +62,22 @@ function Contact() {
           <div className="media contact-info">
             <span className="contact-info__icon"><i className="ti-home" /></span>
             <div className="media-body">
-              <h3>Buttonwood, California.</h3>
-              <p>Rosemead, CA 91770</p>
+              <h3>12 / sukhmal, Nagar Society, Chandlodiya Rd, nr.
+                      dhanjibhai no kuva Nr, opposite GHANSHYAM COMPLEX,
+                      Dhanjibhai Kuva, Chandlodiya, Ahmedabad, Gujarat 382481</h3>
+ 
             </div>
           </div>
           <div className="media contact-info">
             <span className="contact-info__icon"><i className="ti-tablet" /></span>
             <div className="media-body">
-              <h3>+1 253 565 2365</h3>
-              <p>Mon to Fri 9am to 6pm</p>
+              <h3>9662177303</h3>
             </div>
           </div>
           <div className="media contact-info">
             <span className="contact-info__icon"><i className="ti-email" /></span>
             <div className="media-body">
-              <h3>support@colorlib.com</h3>
-              <p>Send us your query anytime!</p>
+              <h3>strongcoregym@gmail.com</h3>
             </div>
           </div>
         </div>
@@ -96,7 +96,9 @@ function Contact() {
             </div>
             <div className="features-caption">
               <h3>Location</h3>
-              <p>You’ll look at graphs and charts in Task One, how to approach </p>
+              <p>12 / sukhmal, Nagar Society, Chandlodiya Rd, nr.
+                      dhanjibhai no kuva Nr, opposite GHANSHYAM COMPLEX,
+                      Dhanjibhai Kuva, Chandlodiya, Ahmedabad, Gujarat 382481</p>
             </div>
           </div>
         </div>
@@ -107,8 +109,7 @@ function Contact() {
             </div>
             <div className="features-caption">
               <h3>Phone</h3>
-              <p>(90) 277 278 2566</p>
-              <p>  (78) 267 256 2578</p>
+              <p>9662177303</p>
             </div>
           </div>
         </div>
@@ -119,8 +120,7 @@ function Contact() {
             </div>
             <div className="features-caption">
               <h3>Email</h3>
-              <p>jacson767@gmail.com</p>
-              <p>contact56@zacsion.com</p>
+              <p>strongcoregym@gmail.com</p>
             </div>
           </div>
         </div>

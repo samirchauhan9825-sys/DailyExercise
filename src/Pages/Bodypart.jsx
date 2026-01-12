@@ -14,7 +14,7 @@ function Bodypart() {
     const options = {
       method: "GET",
       headers: {
-        "x-rapidapi-key": "201f7d4684msheed7ae8591cb35fp12a367jsnb49b1b720713",
+        "x-rapidapi-key": "a145741cfcmsh6f6f170edee6249p188f2cjsn5367c288b64c",
         "x-rapidapi-host": "exercisedb.p.rapidapi.com",
       },
     };
@@ -39,7 +39,7 @@ function Bodypart() {
     const options = {
       method: "GET",
       headers: {
-        "x-rapidapi-key": "201f7d4684msheed7ae8591cb35fp12a367jsnb49b1b720713",
+        "x-rapidapi-key": "a145741cfcmsh6f6f170edee6249p188f2cjsn5367c288b64c",
         "x-rapidapi-host": "exercisedb.p.rapidapi.com",
       },
     };
@@ -92,7 +92,10 @@ function Bodypart() {
                         <>
                           <ul className="list cat-list">
                             <li>
-                              <Link to={`/bodypartbytag/${value}`} className="d-flex">
+                              <Link
+                                to={`/bodypartbytag/${value}`}
+                                className="d-flex"
+                              >
                                 <p>{value}</p>
                               </Link>
                             </li>
@@ -101,8 +104,6 @@ function Bodypart() {
                       );
                     })}
                   </aside>
-
-
                 </div>
               </div>
               <div class="col-lg-9 mb-5 mb-lg-0">
@@ -110,40 +111,48 @@ function Bodypart() {
                   <article class="blog_item">
                     <div class="blog_details">
                       <Row>
-                        {exe.map((value) => {
-                          return (
-                            <Col sm="6" md="4">
-                              <Card className="my-5">
-                                <Card.Img
-                                  variant="top"
-                                  src="https://www.shutterstock.com/image-vector/woman-sport-gym-vector-illustration-260nw-1677799246.jpg"
-                                />
-                                <Card.Body>
-                                  <Card.Title>
-                                    <h3 className="mt-3">{value.name}</h3>
-                                  </Card.Title>
-                                  <Card.Text>{value.description}</Card.Text>
-                                </Card.Body>
-                                <ListGroup className="list-group-flush">
-                                  <ListGroup.Item>
-                                    <b>BodyPart</b> : {value.bodyPart}
-                                  </ListGroup.Item>
-                                  <ListGroup.Item>
-                                    <b>Equipment</b> : {value.equipment}
-                                  </ListGroup.Item>
-                                  <ListGroup.Item>
-                                    <b>Target</b> : {value.target}
-                                  </ListGroup.Item>
-                                </ListGroup>
-                                <Card.Body>
-                                  <Link to={`/details/${value.id}`}>
-                                    View More
-                                  </Link>
-                                </Card.Body>
-                              </Card>
-                            </Col>
-                          );
-                        })}
+                        {exe ? (
+                          <>
+                            {exe.map((value) => {
+                              return (
+                                <Col sm="6" md="4">
+                                  <Card className="my-5">
+                                    <Card.Img
+                                      variant="top"
+                                      src="https://www.shutterstock.com/image-vector/woman-sport-gym-vector-illustration-260nw-1677799246.jpg"
+                                    />
+                                    <Card.Body>
+                                      <Card.Title>
+                                        <h3 className="mt-3">{value.name}</h3>
+                                      </Card.Title>
+                                      <Card.Text>{value.description}</Card.Text>
+                                    </Card.Body>
+                                    <ListGroup className="list-group-flush">
+                                      <ListGroup.Item>
+                                        <b>BodyPart</b> : {value.bodyPart}
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        <b>Equipment</b> : {value.equipment}
+                                      </ListGroup.Item>
+                                      <ListGroup.Item>
+                                        <b>Target</b> : {value.target}
+                                      </ListGroup.Item>
+                                    </ListGroup>
+                                    <Card.Body>
+                                      <Link to={`/details/${value.id}`}>
+                                        View More
+                                      </Link>
+                                    </Card.Body>
+                                  </Card>
+                                </Col>
+                              );
+                            })}
+                          </>
+                        ) : (
+                          <>
+                            <h2>Exercises are on the way…</h2>
+                          </>
+                        )}
                       </Row>
                     </div>
                   </article>

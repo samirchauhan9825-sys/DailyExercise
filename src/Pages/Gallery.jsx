@@ -29,7 +29,7 @@ function Gallery() {
             <div className="overlay">
               <div className="overlay-content">
                 <h3>Muscle gaining </h3>
-                <a href="gallery.html"><i className="ti-plus" /></a>
+                <a href="/gallery"><i className="ti-plus" /></a>
               </div>
             </div>
           </div>
@@ -40,7 +40,7 @@ function Gallery() {
             <div className="overlay">
               <div className="overlay-content">
                 <h3>Muscle gaining </h3>
-                <a href="gallery.html"><i className="ti-plus" /></a>
+                <a href="/gallery"><i className="ti-plus" /></a>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ function Gallery() {
             <div className="overlay">
               <div className="overlay-content">
                 <h3>Muscle gaining </h3>
-                <a href="gallery.html"><i className="ti-plus" /></a>
+                <a href="/gallery"><i className="ti-plus" /></a>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ function Gallery() {
             <div className="overlay">
               <div className="overlay-content">
                 <h3>Muscle gaining </h3>
-                <a href="gallery.html"><i className="ti-plus" /></a>
+                <a href="/gallery"><i className="ti-plus" /></a>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ function Gallery() {
             <div className="overlay">
               <div className="overlay-content">
                 <h3>Muscle gaining </h3>
-                <a href="gallery.html"><i className="ti-plus" /></a>
+                <a href="/gallery"><i className="ti-plus" /></a>
               </div>
             </div>
           </div>
@@ -84,7 +84,7 @@ function Gallery() {
             <div className="overlay">
               <div className="overlay-content">
                 <h3>Muscle gaining </h3>
-                <a href="gallery.html"><i className="ti-plus" /></a>
+                <a href="/gallery"><i className="ti-plus" /></a>
               </div>
             </div>
           </div>
@@ -104,7 +104,9 @@ function Gallery() {
             </div>
             <div className="features-caption">
               <h3>Location</h3>
-              <p>You’ll look at graphs and charts in Task One, how to approach </p>
+              <p>12 / sukhmal, Nagar Society, Chandlodiya Rd, nr.
+                      dhanjibhai no kuva Nr, opposite GHANSHYAM COMPLEX,
+                      Dhanjibhai Kuva, Chandlodiya, Ahmedabad, Gujarat 382481</p>
             </div>
           </div>
         </div>
@@ -115,8 +117,7 @@ function Gallery() {
             </div>
             <div className="features-caption">
               <h3>Phone</h3>
-              <p>(90) 277 278 2566</p>
-              <p>  (78) 267 256 2578</p>
+              <p>9662177303</p>
             </div>
           </div>
         </div>
@@ -127,8 +128,7 @@ function Gallery() {
             </div>
             <div className="features-caption">
               <h3>Email</h3>
-              <p>jacson767@gmail.com</p>
-              <p>contact56@zacsion.com</p>
+              <p>strongcoregym@gmail.com</p>
             </div>
           </div>
         </div>

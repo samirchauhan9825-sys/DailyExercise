@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -26,12 +27,11 @@ function Footer() {
                       <div className="main-menu main-menu2 text-center">
                         <nav>
                           <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="courses.html">Courses</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/about">About</Link></li>
+                            <li><Link to="/exelist">Execrcise</Link></li>
+                            <li><Link to="/gallery">Gallery</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
                           </ul>
                         </nav>
                       </div>   
@@ -41,9 +41,9 @@ function Footer() {
                 {/* Header End */}
                 {/* social */}
                 <div className="footer-social mt-30 wow fadeInUp" data-wow-duration="3s" data-wow-delay=".8s">
-                  <a href="#"><i className="fab fa-twitter" /></a>
-                  <a href="https://bit.ly/sai4ull"><i className="fab fa-facebook-f" /></a>
-                  <a href="#"><i className="fab fa-pinterest-p" /></a>
+                  <a href=""><i className="fab fa-twitter" /></a>
+                  <a href=""><i className="fab fa-facebook-f" /></a>
+                  <a href=""><i className="fab fa-pinterest-p" /></a>
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ function Footer() {
             <div className="col-lg-12">
               <div className="footer-copy-right text-center">
                 <p>{/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                  Copyright © All rights reserved | This template is made with <i className="fa fa-heart" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                  Copyright © All rights reserved
                   {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}</p>
               </div>
             </div>
